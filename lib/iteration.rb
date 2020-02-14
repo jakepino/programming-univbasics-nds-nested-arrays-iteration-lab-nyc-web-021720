@@ -6,8 +6,10 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-  src.
-  
+  new_arr = []
+  src.each do |foodN|
+    new_arr.push("I love #{foodN[0]} and #{foodN[1]} on my pizza")
+    return new_arr
 end
 
 def find_greater_pair(src)
