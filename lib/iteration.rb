@@ -9,6 +9,7 @@ def join_ingredients(src)
   new_arr = []
   src.each do |foodN|
     new_arr.push("I love #{foodN[0]} and #{foodN[1]} on my pizza")
+  end
     return new_arr
 end
 
